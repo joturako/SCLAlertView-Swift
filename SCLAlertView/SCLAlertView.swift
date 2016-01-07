@@ -102,8 +102,8 @@ public class SCLAlertView: UIViewController {
     
     // Members declaration
     var baseView = UIView()
-    var labelTitle = UILabel()
-    var viewText = UITextView()
+    public var labelTitle = UILabel()
+    public var viewText = UITextView()
     var contentView = UIView()
     var circleBG = UIView(frame:CGRect(x:0, y:0, width:kCircleHeightBackground, height:kCircleHeightBackground))
     var circleView = UIView()
